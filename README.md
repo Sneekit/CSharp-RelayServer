@@ -5,4 +5,4 @@ A client had an issue where their operating system did not support TLS1.2 commun
 
 To resolve this issue, I created a relay server that listens for TCP packets from their server, translates them to TLS1.2 packets, submits them to the client, awaits the response, then translates it back to TCP to return to their server.
 
-Listeners is asynchronous.
+Listener is asynchronous.
