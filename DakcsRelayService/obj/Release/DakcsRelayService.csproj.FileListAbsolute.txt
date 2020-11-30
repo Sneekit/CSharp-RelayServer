@@ -1,0 +1,9 @@
+C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\DakcsRelayService\bin\Release\DakcsRelayService.exe.config
+C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\DakcsRelayService\bin\Release\DakcsRelayService.exe
+C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\DakcsRelayService\bin\Release\DakcsRelayService.pdb
+C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\DakcsRelayService\obj\Release\DakcsRelayService.DakcsRelay.resources
+C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\DakcsRelayService\obj\Release\DakcsRelayService.csproj.GenerateResource.cache
+C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\DakcsRelayService\obj\Release\DakcsRelayService.csproj.CoreCompileInputs.cache
+C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\DakcsRelayService\obj\Release\DakcsRelayService.exe
+C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\DakcsRelayService\obj\Release\DakcsRelayService.pdb
+C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\DakcsRelayService\obj\Release\DakcsRelayService.csprojAssemblyReference.cache

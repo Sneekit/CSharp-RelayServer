@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<?define Manufacturer="DAKCS Software Systems, Inc." ?>
+	<?define ProductName="DAKCS Relay Server 1180" ?>
+	<?define ProductVersion="1.0.0.0"?>
+	<?define UpgradeCode="1CC86467-DA4A-4DD6-B958-375E5F78F3DF" ?>
+	<Product Id="*" Name="$(var.ProductName)" Language="1033" Version="$(var.ProductVersion)" Manufacturer="$(var.Manufacturer)" UpgradeCode="$(var.UpgradeCode)">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<Media Id="1" Cabinet="App.cab" EmbedCab="yes" />
+		<Icon Id="Icon.DAKCS.ico" SourceFile="DAKCS.ico" />
+
+
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="Directory.DAKCS" Name="DAKCS">
+					<Directory Id="INSTALLDIR" Name="$(var.ProductName)">
+						<Directory Id="Directory.Binaries" />
+					</Directory>
+				</Directory>
+			</Directory>
+		</Directory>
+
+		<ComponentGroup Id="ComponentGroup.Plugins" Directory="Directory.Binaries">
+			<Component>
+				<RegistryKey Root="HKLM" Key="Software\DAKCS\Plugins\1180">
+					<RegistryValue Name="Path" Type="string" Value="[INSTALLDIR]" />
+				</RegistryKey>
+			</Component>
+		</ComponentGroup>
+
+		<Feature Id="Feature.Product" Title="$(var.ProductName)" Level="1" Absent="disallow">
+			<ComponentGroupRef Id="ComponentGroup.Plugins"/>
+		</Feature>
+	</Product>
+</Wix>
