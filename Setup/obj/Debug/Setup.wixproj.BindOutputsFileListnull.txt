@@ -1,2 +1,0 @@
-C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\Setup\bin\Debug\Setup.msi
-C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\Setup\bin\Debug\Setup.wixpdb

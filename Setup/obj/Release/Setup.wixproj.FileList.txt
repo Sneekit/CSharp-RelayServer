@@ -1,6 +1,0 @@
-C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\Setup\bin\Release\Setup.msi
-C:\Users\johnm\source\repos\customs\1180\Plugins\DakcsRelayService\Setup\bin\Release\Setup.wixpdb
-obj\Release\Product.wixobj
-obj\Release\Setup.wixproj.BindContentsFileListnull.txt
-obj\Release\Setup.wixproj.BindOutputsFileListnull.txt
-obj\Release\Setup.wixproj.BindBuiltOutputsFileListnull.txt

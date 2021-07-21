@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayServer", "DakcsRelayService\RelayServer.csproj", "{B25F43BA-93C1-417A-950F-CD338A561CF5}"
-EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Setup", "Setup\Setup.wixproj", "{7C605F9A-21D2-48EA-9F77-10966A675B6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayServer", "RelayServer\RelayServer.csproj", "{B25F43BA-93C1-417A-950F-CD338A561CF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
